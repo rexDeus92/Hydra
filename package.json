@@ -1,0 +1,30 @@
+{
+  "name": "hydra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexDeus92/Hydra.git"
+  },
+  "author": "rexDeus92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexDeus92/Hydra/issues"
+  },
+  "homepage": "https://github.com/rexDeus92/Hydra#readme",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
