@@ -1,0 +1,1 @@
+const burgerMenuBtn=document.querySelector(".burger-menu"),header=document.querySelector(".header"),nav=document.querySelector(".header-nav"),burgerMenuIcon=document.querySelector(".burger-menu-icon");burgerMenuBtn.addEventListener("click",(()=>{document.body.classList.toggle("no-scroll"),nav.classList.toggle("active"),burgerMenuBtn.classList.toggle("active")}));
