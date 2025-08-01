@@ -84,8 +84,8 @@ html {
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    top: 104px;
-    right: 368px;
+    top: 103px;
+    right: 404px;
     background: #8176af;
     padding: 16px;
     border-radius: 8px;
@@ -137,7 +137,8 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 40px;
+    gap: 34px;
+    margin-top: 150px;
     font-size: 32px;
   }
   .header-nav__item:hover {
@@ -156,7 +157,7 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 25px;
-    margin-top: 60px;
+    margin: 52px 0;
   }
   .header-nav .header-buttons__wrapper .header-btn {
     border-radius: 50px;
@@ -252,6 +253,15 @@ html {
     -webkit-transform: rotate(-45deg) translateY(0px);
             transform: rotate(-45deg) translateY(0px);
   }
+}
+.header-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
 }
 .header-buttons .header-buttons__wrapper {
   display: -webkit-box;
